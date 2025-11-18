@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # -----------------------------------------------------------
 # PAGE CONFIG
 # -----------------------------------------------------------
-st.set_page_config(page_title="Nebula DataSense", layout="wide")
+st.set_page_config(page_title="Ai Based Intelligent Query Agent", layout="wide")
 
 
 
@@ -390,4 +390,5 @@ with tab_analytics:
     fig, ax = plt.subplots(figsize=(10, 6))
     sns.heatmap(df.corr(), annot=False, cmap="coolwarm")
     st.pyplot(fig)
+
 
